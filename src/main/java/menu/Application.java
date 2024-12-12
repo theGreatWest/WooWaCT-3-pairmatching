@@ -1,8 +1,7 @@
-package pairmatching;
+package menu;
 
-import pairmatching.controller.AppController;
-import pairmatching.core.config.AppConfig;
-import pairmatching.core.util.ReadFile;
+import menu.controller.AppController;
+import menu.core.config.AppConfig;
 
 public class Application {
     public static void main(String[] args) {
