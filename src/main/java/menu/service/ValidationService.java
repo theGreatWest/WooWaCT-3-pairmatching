@@ -23,6 +23,4 @@ public class ValidationService {
         int num = cantEatMenus.size();
         if (num > 2) throw new IllegalArgumentException(ExceptionMsg.INVALID_CANT_EAT_MENUS.fullErrorMsg());
     }
-
-
 }

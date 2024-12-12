@@ -50,7 +50,7 @@ public class AppService {
         return sb.toString();
     }
 
-    private List<String> createCategories(){
+    public List<String> createCategories(){
         List<String> categories = new ArrayList<>();
         int[] typesNum = new int[5];
         while(categories.size() < 5){
